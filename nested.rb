@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-programmer_hash[:grace_hopper]
+programmer_hash.delete![:alan_kay, :dennis_ritchie]
 
 return programmer_hash
 
