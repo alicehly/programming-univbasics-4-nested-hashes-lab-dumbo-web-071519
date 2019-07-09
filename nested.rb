@@ -127,5 +127,8 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-return programmer_hash[]
+return programmer_hash[:yukihiro_matsumoto] = {
+  :known_for => "Ruby",
+  :languages => ["LISP", "C"]
+ }
 end
